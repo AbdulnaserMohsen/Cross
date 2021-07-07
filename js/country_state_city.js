@@ -33,7 +33,7 @@ $(document).ready(function(){
   var countries = getAJAX(conutriesURL); // the importance of async test without aync or aync is true
   //console.log(countries);
   //console.log(countries.geonames);
-  //all these things changed
+  //all these things changed to anothr better one
   $(countries.geonames).each(function(index,item){
     //console.log(item.countryName , item.geonameId);
     var selectOption = $("<option>")
